@@ -10,22 +10,31 @@
 </head>
 
 <body>
+    <div class="row">
+        <div class="col text-left">
+            <a href="#" id="viewHighScore">View High Scores</a>
+        </div>
+        <div id="timer" class="col text-right">
+            <i class="far fa-clock"></i> Time: <span id="timeLeft">0</span>
+        </div>
+        <div id="timesUp" class="col text-right" style="display: none;">Time's Up!</div>
+    </div>
     <div class="container">
-        <div id="questions-container" class="hide">
-            <div id="questions">Questions</div>
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
             <div id="answer-buttons" class="btn-grid">
-                <button class="btn correct">Answer1</button>
-                <button class="btn wrong">Answer2</button>
-                <button class="btn">Answer3</button>
-                <button class="btn">Answer4</button>
-
-            </div>
-            <div class="controlls">
-                <button id="start-btn" class="start-btn btn">Start</button>
-                <button id="next-btn" class="next-btn btn hide">Next</button>
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
             </div>
         </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
     </div>
+    <script src="./assets/script.js"></script>
 </body>
 
 </html>
