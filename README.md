@@ -18,3 +18,4 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
 ```
+<img width="1270" alt="Screen Shot 2022-05-02 at 12 03 52 AM" src="https://user-images.githubusercontent.com/93751925/166197193-55efe3f7-1c0c-4a73-82b0-252857db1e23.png">
